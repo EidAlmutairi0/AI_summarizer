@@ -70,9 +70,6 @@ const Demo = () => {
               JSON.stringify(updatedAllArticles)
             );
             setIsFetched(false);
-          })
-          .catch((e) => {
-            setIsFetched(false);
           });
       }
     } catch (error) {
